@@ -3,6 +3,8 @@ package com.jinghuan.zuckonit.web.util;
 import com.jinghuan.zuckonit.web.base.Util.HtmlUtilsJ;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
@@ -152,10 +154,24 @@ public final class HtmlUtils {
      * @return 摘要结果
      */
     public static String getExcerpt(String text) {
-        String excerpt = null;
+        StringBuilder excerpt = new StringBuilder("");
+        int textLength = 0;
+
         Document doc = Jsoup.parse(text);
-
-
-        return excerpt;
+        //获取所有段落元素
+        Elements ps = doc.getElementsByTag("p");
+        for ( Element p: ps ) {
+            String html2Text = p.html();
+            if(html2Text != null){
+                textLength += Html2Text(html2Text).length();
+                if(textLength > 89) {
+                    String shortForText = Html2Text(html2Text).substring(0, Html2Text(html2Text).length() - (textLength - 89))  + "...";
+                    excerpt.append(shortForText);
+                    break;
+                }
+                excerpt.append(html2Text);
+            }
+        }
+        return excerpt.toString();
     }
 }

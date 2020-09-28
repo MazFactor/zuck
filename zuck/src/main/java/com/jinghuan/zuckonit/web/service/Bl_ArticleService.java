@@ -40,11 +40,12 @@ public class Bl_ArticleService {
         List<BL_ArticleIndexVO> resultList = queryList(query);
         for (BL_ArticleIndexVO bl_articleVo : resultList) {
             if (null != bl_articleVo.getB1_content() && bl_articleVo.getB1_content().length() > 0)
+                bl_articleVo.setB1_content(HtmlUtils.getExcerpt(bl_articleVo.getB1_content()));
 //                bl_articleVo.setB1_content(StringAnalysis.getStringAnalysed(new IKAnalyzer6x(), HtmlUtils.Html2Text(bl_articleVo.getB1_content())));
-                if(HtmlUtils.Html2Text(bl_articleVo.getB1_content()).length() > 90)
-                    bl_articleVo.setB1_content(HtmlUtils.Html2Text(bl_articleVo.getB1_content()).substring(0,89) + "...");
-                else
-                    bl_articleVo.setB1_content(HtmlUtils.Html2Text(bl_articleVo.getB1_content()));
+//                if(HtmlUtils.Html2Text(bl_articleVo.getB1_content()).length() > 90)
+//                    bl_articleVo.setB1_content(HtmlUtils.Html2Text(bl_articleVo.getB1_content()).substring(0,89) + "...");
+//                else
+//                    bl_articleVo.setB1_content(HtmlUtils.Html2Text(bl_articleVo.getB1_content()));
         }
         return new PageInfo<>(resultList);
     }
