@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d5bc45a-d277-4f42-a0d5-e2d35d60857d" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/zuck/target/" />
+    <ignored path="$PROJECT_DIR$/gw-mdm-common/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/jh-log/target/" />
+    <ignored path="$PROJECT_DIR$/zlog/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/zuckonit$ZuckApplication.ic" NAME="ZuckApplication Coverage Results" MODIFIED="1600407234055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="101" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/controller/Bl_ArticleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1691">
+              <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/templates/write_tinymce_markdownime.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2717">
+              <caret line="143" column="25" lean-forward="true" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/templates/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17461">
+              <caret line="919" column="28" selection-start-line="919" selection-start-column="28" selection-end-line="919" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Save</find>
+      <find>categories</find>
+      <find>required</find>
+      <find>span.submit</find>
+      <find>sidebar-module</find>
+      <find>submit</find>
+      <find>is-disabled</find>
+      <find>Title</find>
+      <find>title-field</find>
+      <find>.title-field</find>
+      <find>text-editor</find>
+      <find>text-editor__button--ul</find>
+      <find>text-editor__markdown</find>
+      <find>content</find>
+      <find>text-editor__button--push</find>
+      <find>tox-sidebar-wrap</find>
+      <find>zlog</find>
+      <find>textarea</find>
+      <find>tox-toolbar-overlord</find>
+      <find>.tox-tinymce</find>
+      <find>charset</find>
+      <find>page.data</find>
+      <find>.tox .tox-editor-container</find>
+      <find>removeClass</find>
+      <find>save</find>
+      <find>visibility-hidden</find>
+      <find>Input</find>
+      <find>textarea.Input</find>
+      <find>tinymce</find>
+      <find>body</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Z</replace>
+      <replace>SftpUtil</replace>
+      <replace>ftp.zuck</replace>
+      <replace>jianbaizhan</replace>
+      <replace>edit-post</replace>
+      <replace>detail</replace>
+      <replace>articles</replace>
+      <replace>分类</replace>
+      <replace>关于</replace>
+      <replace>JH</replace>
+      <replace>/fonts/siteleaf</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Workspace\zuckonit\zuck\src\main\resources\static\js\codemirror\mode\gfm</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/templates/write_hypermd.html" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/static/HyperMD/demo/index.js" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/static/HyperMD/index.html" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/templates/hypermd2.html" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/templates/hypermd3.html" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/static/js/vendor/require.js" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/static/js/main.js" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/templates/hypermd.html" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/templates/write_tinymce.html" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/templates/write_mdeditor.html" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/templates/write_wangEditor.html" />
+        <option value="$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/web/controller/Bl_ArticleController.java" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/web/service/Bl_ArticleService.java" />
+        <option value="$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/web/util/Summary.java" />
+        <option value="$PROJECT_DIR$/zlog/pom.xml" />
+        <option value="$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/web/util/HtmlUtils.java" />
+        <option value="$PROJECT_DIR$/zuck/src/test/java/com/jinghuan/web/ZuckApplicationTests.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/serializer/BaseEnumDeserializer.java" />
+        <option value="$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/lucene/IKAnalyzer6x.java" />
+        <option value="$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/lucene/IKTokenizer6x.java" />
+        <option value="$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/lucene/StringAnalysis.java" />
+        <option value="$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/util/Summary.java" />
+        <option value="$PROJECT_DIR$/zlog/src/main/java/com/jinghuan/zlog/ZLogger.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/jiangda/service/JDIntegrationEndpointServiceLocator.java" />
+        <option value="$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/util/HtmlUtils.java" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/ftp-zuck.properties" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/static/tinymce_5.2.1/skins/content/dark/content.min.css" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/static/tinymce_5.2.1/skins/content/writer/content.min.css" />
+        <option value="$PROJECT_DIR$/../jekyll-sites-collection/jinghuan/index.html" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/templates/write_siteleaf.html" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/static/css/item.css" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/static/js/application.js" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zuck/pom.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/util/SftpClient.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/factory/FtpClientFactory.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/util/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/util/FtpUtil.java" />
+        <option value="$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/config/LogConfig.java" />
+        <option value="$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/service/impl/DownloadFileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/service/impl/UploadFileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/static/css/siteleaf.css" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/static/tinymce_5.2.1/skins/ui/oxide/skin.min.css" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/templates/siteleaf/write_siteleaf.html" />
+        <option value="$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/controller/Bl_ArticleController.java" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/static/css/style.css" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/templates/write_tinymce_markdownime.html" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/static/tinymce_5.2.1/skins/content/default/content.min.css" />
+        <option value="$PROJECT_DIR$/zuck/src/main/resources/templates/detail.html" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repo_mvn" />
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="dev" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuck" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuck" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zuckonit" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="433" />
+    <option name="y" value="300" />
+    <option name="width" value="1331" />
+    <option name="height" value="670" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zuckonit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuckonit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuckonit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuckonit" type="462c0819:PsiDirectoryNode" />
+              <item name="zuck" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuckonit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuckonit" type="462c0819:PsiDirectoryNode" />
+              <item name="zuck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuckonit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuckonit" type="462c0819:PsiDirectoryNode" />
+              <item name="zuck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuckonit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuckonit" type="462c0819:PsiDirectoryNode" />
+              <item name="zuck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuckonit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuckonit" type="462c0819:PsiDirectoryNode" />
+              <item name="zuck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuckonit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuckonit" type="462c0819:PsiDirectoryNode" />
+              <item name="zuck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuckonit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuckonit" type="462c0819:PsiDirectoryNode" />
+              <item name="zuck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuckonit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuckonit" type="462c0819:PsiDirectoryNode" />
+              <item name="zuck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuckonit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuckonit" type="462c0819:PsiDirectoryNode" />
+              <item name="zuck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="codemirror" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zuckonit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zuckonit" type="462c0819:PsiDirectoryNode" />
+              <item name="zuck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1601198969980" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\zuckonit\zuck\src\main\resources\templates" />
+      <recent name="D:\Workspace\zuckonit\zuck\src\main\resources\static\js\vendor" />
+      <recent name="D:\Workspace\zuckonit\zuck\src\main\resources\static\js" />
+      <recent name="D:\Workspace\zuckonit\zuck\src\main\resources\static" />
+      <recent name="D:\Workspace\zuckonit\zuck\src\main\resources\static\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\zuckonit\zuck\src\main\resources\static\editmd\css" />
+      <recent name="D:\workspace\zuckonit\zuck\src\main\resources\templates" />
+      <recent name="D:\workspace\zuckonit\zuck\src\test\java\com\jinghuan" />
+      <recent name="D:\workspace\zuckonit\zuck\src\main\resources\static\css" />
+      <recent name="D:\workspace\zuckonit\zuck\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.14864865" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ZuckApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuck" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jinghuan.zuckonit.web.ZuckApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuckApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zuck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jinghuan.zuckonit.zuck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jinghuan.web.ZuckApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ZuckApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d5bc45a-d277-4f42-a0d5-e2d35d60857d" name="Default Changelist" comment="" />
+      <created>1586584865233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586584865233</updated>
+      <workItem from="1586584868456" duration="66000" />
+      <workItem from="1586584955659" duration="5412000" />
+      <workItem from="1586692799137" duration="20016000" />
+      <workItem from="1586738938312" duration="1097000" />
+      <workItem from="1586740094301" duration="23356000" />
+      <workItem from="1586824384983" duration="20143000" />
+      <workItem from="1586912734571" duration="4951000" />
+      <workItem from="1586939021058" duration="1849000" />
+      <workItem from="1586997783809" duration="10225000" />
+      <workItem from="1587085528197" duration="2553000" />
+      <workItem from="1587344823434" duration="600000" />
+      <workItem from="1587461552329" duration="868000" />
+      <workItem from="1587548445525" duration="598000" />
+      <workItem from="1587619789466" duration="102000" />
+      <workItem from="1587622705667" duration="75000" />
+      <workItem from="1587704558831" duration="2251000" />
+      <workItem from="1587718107137" duration="3056000" />
+      <workItem from="1587859662207" duration="998000" />
+      <workItem from="1587886466421" duration="2292000" />
+      <workItem from="1588760429590" duration="895000" />
+      <workItem from="1589591488473" duration="894000" />
+      <workItem from="1595901101496" duration="3912000" />
+      <workItem from="1595916012499" duration="5136000" />
+      <workItem from="1595922233184" duration="926000" />
+      <workItem from="1595923341950" duration="1583000" />
+      <workItem from="1596675047754" duration="26499000" />
+      <workItem from="1596760905474" duration="5512000" />
+      <workItem from="1596776441768" duration="521000" />
+      <workItem from="1596777144161" duration="10490000" />
+      <workItem from="1596792806922" duration="4656000" />
+      <workItem from="1596849662590" duration="10635000" />
+      <workItem from="1596865371163" duration="1389000" />
+      <workItem from="1596866807391" duration="1250000" />
+      <workItem from="1596868230598" duration="748000" />
+      <workItem from="1596871251904" duration="681000" />
+      <workItem from="1596872058750" duration="5938000" />
+      <workItem from="1597107532508" duration="19200000" />
+      <workItem from="1597192063416" duration="8536000" />
+      <workItem from="1597278736474" duration="15287000" />
+      <workItem from="1597365845959" duration="20756000" />
+      <workItem from="1598231880350" duration="12755000" />
+      <workItem from="1598318407586" duration="5480000" />
+      <workItem from="1598342797315" duration="1928000" />
+      <workItem from="1598402635211" duration="17196000" />
+      <workItem from="1598491056195" duration="593000" />
+      <workItem from="1598514971755" duration="643000" />
+      <workItem from="1598576422785" duration="10187000" />
+      <workItem from="1598833020870" duration="15224000" />
+      <workItem from="1598946299527" duration="3924000" />
+      <workItem from="1599120455214" duration="1589000" />
+      <workItem from="1599182656852" duration="11860000" />
+      <workItem from="1599282539050" duration="13232000" />
+      <workItem from="1599438990931" duration="17298000" />
+      <workItem from="1599526006214" duration="13359000" />
+      <workItem from="1599714636970" duration="7444000" />
+      <workItem from="1600044367704" duration="2275000" />
+      <workItem from="1600147413060" duration="9688000" />
+      <workItem from="1600218293685" duration="3830000" />
+      <workItem from="1600236620260" duration="4938000" />
+      <workItem from="1600302491752" duration="19118000" />
+      <workItem from="1600389907871" duration="10177000" />
+      <workItem from="1600493596395" duration="634000" />
+      <workItem from="1600821686565" duration="21645000" />
+      <workItem from="1600908106714" duration="19271000" />
+      <workItem from="1601171445140" duration="489000" />
+      <workItem from="1601175913172" duration="1329000" />
+      <workItem from="1601183046821" duration="5010000" />
+      <workItem from="1601196204035" duration="629000" />
+      <workItem from="1601197593448" duration="1767000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="479464000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3279743" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2829582" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26902464" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.2636656" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.3290461" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3279743" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.4989339" visible="true" weight="0.3118971" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24946696" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" sideWeight="0.4992785" visible="true" weight="0.14392324" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5007215" side_tool="true" weight="0.14392324" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/util/FtpUtil.java</url>
+          <line>209</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>bl_articleVo.getB1_content().length()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bl_articleVo.setB1_content(StringAnalysis.getStringAnalysed(new IKAnalyzer6x(), HtmlUtils.Html2Text(bl_articleVo.getB1_content())));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="1136" column="17" selection-start-line="1136" selection-start-column="17" selection-end-line="1136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar!/com/fasterxml/jackson/databind/JsonDeserializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/serializer/BaseEnumDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/lucene/IKAnalyzer6x.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/lucene/IKTokenizer6x.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="24" column="22" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/lucene/StringAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/test/java/com/jinghuan/zuckonit/web/ZuckApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/jiangda/service/JDIntegrationEndpointServiceLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zlog/src/main/java/com/jinghuan/zlog/ZLogger.java" />
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/util/Summary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/controller/FileDealerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2641">
+          <caret line="172" column="16" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/util/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+          <folding>
+            <element signature="method#compressFileToZip#0;class#FileUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/service/DownloadFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/ftp-zuck.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/tinymce_5.2.1/skins/content/document/content.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="284" selection-start-line="6" selection-start-column="284" selection-end-line="6" selection-end-column="284" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/tinymce_5.2.1/skins/content/dark/content.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="187" selection-start-line="6" selection-start-column="187" selection-end-line="6" selection-end-column="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/tinymce_5.2.1/skins/content/writer/content.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="148" selection-start-line="6" selection-start-column="148" selection-end-line="6" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jekyll-sites-collection/jinghuan/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="44" column="14" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/service/Bl_ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#queryPage#0;class#Bl_ArticleService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/util/HtmlUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="155" column="41" selection-start-line="155" selection-start-column="41" selection-end-line="155" selection-end-column="41" />
+          <folding>
+            <element signature="method#Html2Text#0;class#HtmlUtils#0" />
+            <element signature="method#replaceHtmlTag#0;class#HtmlUtils#0" />
+            <element signature="method#getImageSrc#0;class#HtmlUtils#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/templates/write_siteleaf.html" />
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/css/item.css" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/factory/FtpClientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/util/SftpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="160" column="50" selection-start-line="160" selection-start-column="50" selection-end-line="160" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#cd#0;class#SftpClient#0" />
+            <element signature="method#delete#0;class#SftpClient#0" />
+            <element signature="method#listFiles#0;class#SftpClient#0" />
+            <element signature="method#isExistsFile#0;class#SftpClient#0" />
+            <element signature="method#main#0;class#SftpClient#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/util/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="168" column="9" lean-forward="true" selection-start-line="168" selection-start-column="9" selection-end-line="168" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jinghuan/common/util/FtpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="237" column="13" lean-forward="true" selection-start-line="237" selection-start-column="13" selection-end-line="237" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readFile#0;class#FtpUtil#0" />
+            <element signature="method#deleteFile#0;class#FtpUtil#0" />
+            <element signature="method#writeToText#0;class#FtpUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/config/LogConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/service/impl/DownloadFileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/service/impl/UploadFileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/js/item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/css/siteleaf.css" />
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/tinymce_5.2.1/skins/ui/oxide/skin.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="29038" selection-start-line="6" selection-start-column="29038" selection-end-line="6" selection-end-column="29038" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9609" lean-forward="true" selection-start-column="9560" selection-end-column="9609" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/templates/siteleaf/write_siteleaf.html" />
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/tinymce_5.2.1/jquery.tinymce.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-818" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/templates/write_wangEditor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="215" selection-start-line="215" selection-end-line="215" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/tinymce_5.2.1/tinymce.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13490">
+          <caret line="8" column="127101" selection-start-line="8" selection-start-column="127094" selection-end-line="8" selection-end-column="127101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/java/com/jinghuan/zuckonit/web/controller/Bl_ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1691">
+          <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17461">
+          <caret line="919" column="28" selection-start-line="919" selection-start-column="28" selection-end-line="919" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/tinymce_5.2.1/skins/ui/oxide/content.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="6132" selection-start-line="6" selection-start-column="6128" selection-end-line="6" selection-end-column="6132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/static/tinymce_5.2.1/skins/content/default/content.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="163" selection-start-line="6" selection-start-column="163" selection-end-line="6" selection-end-column="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/templates/write_tinymce_markdownime.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2717">
+          <caret line="143" column="25" lean-forward="true" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuck/src/main/resources/templates/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>zuck</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib:3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

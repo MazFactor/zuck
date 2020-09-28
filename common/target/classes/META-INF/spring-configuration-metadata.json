@@ -1,0 +1,59 @@
+{
+  "groups": [
+    {
+      "name": "gbom",
+      "type": "com.jinghuan.common.jiangda.entity.GbomInterfaceEntity",
+      "sourceType": "com.jinghuan.common.jiangda.entity.GbomInterfaceEntity"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gbom.address",
+      "type": "java.lang.String",
+      "description": "G-BOM生成接口文件中 JDIntegrationEndpointServiceLocator中的地址",
+      "sourceType": "com.jinghuan.common.jiangda.entity.GbomInterfaceEntity"
+    },
+    {
+      "name": "gbom.biz-serial-num",
+      "type": "java.lang.String",
+      "description": "流水号",
+      "sourceType": "com.jinghuan.common.jiangda.entity.GbomInterfaceEntity"
+    },
+    {
+      "name": "gbom.business-type",
+      "type": "java.lang.String",
+      "description": "调用的接口",
+      "sourceType": "com.jinghuan.common.jiangda.entity.GbomInterfaceEntity"
+    },
+    {
+      "name": "gbom.content",
+      "type": "java.lang.String",
+      "description": "request请求参数",
+      "sourceType": "com.jinghuan.common.jiangda.entity.GbomInterfaceEntity"
+    },
+    {
+      "name": "gbom.credential",
+      "type": "java.lang.String",
+      "description": "凭证",
+      "sourceType": "com.jinghuan.common.jiangda.entity.GbomInterfaceEntity"
+    },
+    {
+      "name": "gbom.principal",
+      "type": "java.lang.String",
+      "description": "调用人",
+      "sourceType": "com.jinghuan.common.jiangda.entity.GbomInterfaceEntity"
+    },
+    {
+      "name": "gbom.system-name",
+      "type": "java.lang.String",
+      "description": "系统名称",
+      "sourceType": "com.jinghuan.common.jiangda.entity.GbomInterfaceEntity"
+    },
+    {
+      "name": "gbom.wsdl-url",
+      "type": "java.lang.String",
+      "sourceType": "com.jinghuan.common.jiangda.entity.GbomInterfaceEntity"
+    }
+  ],
+  "hints": []
+}

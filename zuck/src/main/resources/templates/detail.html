@@ -1,0 +1,436 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JH</title>
+    <!--<meta name="csrf-token" content="Kn33qjnKjYIYN8CYI84zbtbICg3TKiHlB5LYKzlV">-->
+    <!--<meta name="keywords" content="12种html5+css3消息提示框效果"/>-->
+    <!--<meta name="description" content="网页素材效果插件技术网站"/>-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/codemirror/codemirror.min.css">
+    <!--<link rel="stylesheet" href="css/layui.css">-->
+    <link rel="stylesheet" type="text/css" href="css/style.css?v=17882425c3efa2f68788f35c66c012c8">
+    <script type="application/javascript" src="js/codemirror/codemirror.min.js"></script>
+    <!--<script type="text/javascript">-->
+        <!--LIAO = {-->
+            <!--_TOKEN: 'Kn33qjnKjYIYN8CYI84zbtbICg3TKiHlB5LYKzlV',-->
+            <!--BASE_URL: 'https://www.jianbaizhan.com'-->
+        <!--}-->
+    <!--</script>-->
+</head>
+<body>
+
+<!--<script>-->
+    <!--(function () {-->
+        <!--var bp = document.createElement ('script');-->
+        <!--var curProtocol = window.location.protocol.split (':')[ 0 ];-->
+        <!--if (curProtocol === 'https') {-->
+            <!--// bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';-->
+            <!--bp.src = 'js/push.js';-->
+        <!--} else {-->
+            <!--// bp.src = 'http://push.zhanzhang.baidu.com/push.js';-->
+            <!--bp.src = 'js/push.js';-->
+        <!--}-->
+        <!--var s = document.getElementsByTagName ("script")[ 0 ];-->
+        <!--s.parentNode.insertBefore (bp, s);-->
+    <!--}) ();-->
+<!--</script>-->
+
+<!--头部-->
+<header class="main-header rainbow">
+    <div class="show">
+        <div class="red"></div>
+        <div class="orange"></div>
+        <div class="yellow"></div>
+        <div class="green"></div>
+        <div class="cyan"></div>
+        <div class="blue"></div>
+        <div class="purple"></div>
+        <div class="red"></div>
+        <div class="orange"></div>
+        <div class="yellow"></div>
+        <div class="green"></div>
+        <div class="cyan"></div>
+        <div class="blue"></div>
+        <div class="purple"></div>
+    </div>
+    <div class="AppHeader-inner">
+        <a href="//www.zhihu.com" aria-label="知道"><svg viewBox="0 0 200 91" fill="#0084FF" width="64" height="30">
+            <path d="M53.29 80.035l7.32.002 2.41 8.24 13.128-8.24h15.477v-67.99H53.29v67.978zm7.79-60.598h22.756v53.22h-8.73l-8.718 5.473-1.587-5.46-3467.687-16.12.687-22.-6.97H16.807c1.09-4.1 2.46-8.332 4.1-12.708 0 0-7.523 0-10.085 6.74-1.06 2.78-4.128 13.48-9.592 24.41 1.84-.2 7.927-.37 11.512-6.94.66-1.84.785-2.08 1.605-4.54h9.02c0 3.28-.374 20.9-.526 22.95H6.51c-3.67 0-4.863 7.38-4.863 7.38H22.14C20.765 66.11 13.385 79.24 0 89.62c6.403 1.828 12.784-.29 15.937-3.094 0 0 7.182-6.53 11.12-21.64L43.92 85.18s2.473-8.402-.388-12.496c-2.37-2.788-8.768-10.33-11.496-13.064l-4.57 3.627c1.363-4.368 2.183-8.61 2.46-12.71H49.19s-.027-7.38-2.372-7.38zm128.752-.502c6.51-8.013 14.054-18.302 14.054-18.302s-5.827-4.625-8.556-1.27c-1.874 2.548-11.51 15.063-11.51 15.063l6.012 4.51zm-46.903-18.462c-2.814-2.577-8.096.667-8.096.667s12.35 17.2 12.85 17.953l6.08-4.29s-8.02-11.752-10.83-14.33zM199.99 46.5c-6.18 0-40.908.292-40.953.292v-31.56c1.503 0 3.882-.124 7.14-.376 12.773-.753 21.914-1.25 27.427-1.504 0 0 3.817-8.496-.185-10.45-.96-.37-7.24 1.43-7.24 1.43s-51.63 5.153-72.61 5.64c.5 2.756 2.38 5.336 4.93 6.11 4.16 1.087 7.09.53 15.36.277 7.76-.5 13.65-.76 17.66-.76v31.19h-41.71s.88 6.97 7.97 7.14h33.73v22.16c0 4.364-3.498 6.87-7.65 6.6-4.4.034-8.15-.36-13.027-.566.623 1.24 1.977 4.496 6.035 6.824 3.087 1.502 5.054 2.053 8.13 2.053 9.237 0 14.27-5.4 14.027-14.16V53.93h38.235c3.026 0 2.72-7.432 2.72-7.432z"
+                  fill-rule="evenodd"></path>
+        </svg></a>
+        <ul class="Tabs AppHeader-Tabs">
+            <li role="tab" class="Tabs-item AppHeader-Tab Tabs-item--noMeta"><a
+                    class="Tabs-link AppHeader-TabsLink is-active" href="//www.zhihu.com/"
+                    data-za-not-track-link="true">首页</a></li>
+            <li role="tab" class="Tabs-item AppHeader-Tab Tabs-item--noMeta"><a class="Tabs-link AppHeader-TabsLink"
+                                                                                href="//www.zhihu.com/explore"
+                                                                                data-za-not-track-link="true">分类</a>
+            </li>
+            <li role="tab" class="Tabs-item AppHeader-Tab Tabs-item--noMeta"><a class="Tabs-link AppHeader-TabsLink"
+                                                                                href="//www.zhihu.com/question/waiting"
+                                                                                data-za-not-track-link="true">关于</a>
+            </li>
+        </ul>
+        <div class="AppHeader-userInfo">
+            <div>
+                <div>
+                    <button type="button" id="Popover14-toggle" >
+                        <!--<img class="Avatar AppHeader-profileAvatar" src="https://pic1.zhimg.com/da8e974dc_is.jpg" srcset="https://pic1.zhimg.com/da8e974dc_im.jpg 2x" width="30" height="30">-->
+                        写文章
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- 主体 -->
+<div class="container">
+    <div class="col-md-12 main-content">
+        <div class="md-scope">
+            <!--文章-->
+            <div class="article-content">
+                <!--标题-->
+                <h1 class="title" th:text="${article.b1_subject}">12种html5+css3消息提示框效果</h1>
+                <!--作者-->
+                <div class="author">作者：<a
+                        href="https://www.jianbaizhan.com/user/4">Jasmine</a>
+                    - 2015-11-17</div>
+                <!--文章图片-->
+                <!--<div class="picview">-->
+                    <!--<img class="border_color9" src="https://www.jianbaizhan.com/uploads/image/2015-11-17/564ac78b5407b.jpg"-->
+                         <!--alt="12种html5+css3消息提示框效果">-->
+                <!--</div>-->
+                <!--文章内容-->
+                <div class="detail" th:utext="${article.b1_content}">
+                    <p>这是12中风格各异的弹出消息提示框效果，使用html5和css3 animation属性制作，有各种旋转、翻转、伸展特效。效果非常华丽。<img src="http://img.baidu.com/hi/jx2/j_0046.gif"/></p>
+                    <!--<div  style="margin: -20px;">-->
+                    <!--<div>-->
+                    <!--<script type="text/javascript">-->
+                    <!--(function () {-->
+                    <!--var s = "_" + Math.random ().toString (36).slice (2);-->
+                    <!--document.write ('<div style="" id="' + s + '"></div>');-->
+                    <!--(window.slotbydup = window.slotbydup || []).push ({-->
+                    <!--id: "u4135859",-->
+                    <!--container: s-->
+                    <!--});-->
+                    <!--}) ();-->
+                    <!--</script>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                </div>
+                <!--关注-->
+                <div class="footer">
+                    <span><i class="fa fa-eye"></i>2319</span>
+                    <span><i class="fa fa-calendar"></i>2015年11月17日</span>
+                </div>
+            </div>
+            <!--评论-->
+            <div class="comment">
+                <!--<hr class="layui-bg-gray">-->
+                <div class="item-content" id="comment" style="display: block;">
+                    <div class="comment-post">
+                        <blockquote class="info layui-elem-quote">
+                            <i class="fa fa-info" aria-hidden="true"></i>&nbsp;请勿发布不友善或者负能量的内容。审查将对发布广告等违规信息进行处罚！
+                        </blockquote>
+                        <form id="commentForm" action="" onsubmit="return false;">
+                            <div id="comment-post" ></div>
+                            <input type="hidden" name="content" value="" />
+                            <input type="hidden" name="pid" id="11" value="0">
+                            <input type="hidden" name="type" id="22" value="App\Models\Code">
+                            <button  class="btn btn-default" id="post-comment-btn" data-id="736">提交评论</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<aside class="col-md-4 sidebar">-->
+    <!--<div class="widget">-->
+    <!--<h4 class="title">登录-->
+    <!--</h4>-->
+    <!--<div class="content download">-->
+
+    <!--<a class="btn btn-default btn-block" target="_blank" href="https://www.jianbaizhan.com/login/sina">微博账号登录</a>-->
+    <!--<a class="btn btn-default btn-block " target="_blank" href="https://www.jianbaizhan.com/login/qq">QQ账号登录</a>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="widget"><h4 class="title">更多操作</h4>-->
+    <!--<div class="content download">-->
+    <!--<a class="btn btn-default btn-block" target="_blank" href="javascript:;" onclick="qrcode_view('https%3A%2F%2Fwww.jianbaizhan.com%2Fuploads%2Ffile%2F20151117%2F564ac78e14ca4%2Fattached-bouncyflip.html')"><i class="fa fa-qrcode"></i> 手机扫码浏览</a>-->
+    <!--<a class="btn btn-default btn-block" target="_blank" href="javascript:;" onclick="full_view('12种html5+css3消息提示框效果','https://www.jianbaizhan.com/uploads/file/20151117/564ac78e14ca4/attached-bouncyflip.html')">全屏演示</a>-->
+    <!--<a class="btn btn-default btn-block" target="_blank" href="javascript:;" onclick="full_view('12种html5+css3消息提示框效果','https://www.jianbaizhan.com/uploads/file/20151117/564ac78e14ca4/attached-flip.html')">全屏演示</a>-->
+    <!--<a class="btn btn-default btn-block" target="_blank" href="javascript:;" onclick="full_view('12种html5+css3消息提示框效果','https://www.jianbaizhan.com/uploads/file/20151117/564ac78e14ca4/bar-exploader.html')">全屏演示</a>-->
+    <!--<a class="btn btn-default btn-block" target="_blank" href="javascript:;" onclick="full_view('12种html5+css3消息提示框效果','https://www.jianbaizhan.com/uploads/file/20151117/564ac78e14ca4/bar-slidetop.html')">全屏演示</a>-->
+    <!--<a class="btn btn-default btn-block" target="_blank" href="javascript:;" onclick="full_view('12种html5+css3消息提示框效果','https://www.jianbaizhan.com/uploads/file/20151117/564ac78e14ca4/growl-genie.html')">全屏演示</a>-->
+    <!--<a class="btn btn-default btn-block" target="_blank" href="javascript:;" onclick="full_view('12种html5+css3消息提示框效果','https://www.jianbaizhan.com/uploads/file/20151117/564ac78e14ca4/growl-jelly.html')">全屏演示</a>-->
+    <!--<a class="btn btn-default btn-block" target="_blank" href="javascript:;" onclick="full_view('12种html5+css3消息提示框效果','https://www.jianbaizhan.com/uploads/file/20151117/564ac78e14ca4/growl-slide.html')">全屏演示</a>-->
+    <!--<a class="btn btn-default btn-block" target="_blank" href="javascript:;" onclick="full_view('12种html5+css3消息提示框效果','https://www.jianbaizhan.com/uploads/file/20151117/564ac78e14ca4/index.html')">全屏演示</a>-->
+    <!--<a class="btn btn-default btn-block" target="_blank" href="javascript:;" onclick="full_view('12种html5+css3消息提示框效果','https://www.jianbaizhan.com/uploads/file/20151117/564ac78e14ca4/other-boxspinner.html')">全屏演示</a>-->
+    <!--<a class="btn btn-default btn-block" target="_blank" href="javascript:;" onclick="full_view('12种html5+css3消息提示框效果','https://www.jianbaizhan.com/uploads/file/20151117/564ac78e14ca4/other-cornerexpand.html')">全屏演示</a>-->
+    <!--<a class="btn btn-default btn-block" target="_blank" href="javascript:;" onclick="full_view('12种html5+css3消息提示框效果','https://www.jianbaizhan.com/uploads/file/20151117/564ac78e14ca4/other-loadingcircle.html')">全屏演示</a>-->
+    <!--<a class="btn btn-default btn-block" target="_blank" href="javascript:;" onclick="full_view('12种html5+css3消息提示框效果','https://www.jianbaizhan.com/uploads/file/20151117/564ac78e14ca4/other-thumbslider.html')">全屏演示</a>-->
+
+    <!--<a class="btn btn-default btn-block" target="_blank" href="https://www.jianbaizhan.com/code/down/736">点击下载</a>-->
+
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="widget no-padding">-->
+    <!--<div class="content download">-->
+    <!--<script type="text/javascript">-->
+    <!--(function() {-->
+    <!--var s = "_" + Math.random().toString(36).slice(2);-->
+    <!--document.write('<div style="" id="' + s + '"></div>');-->
+    <!--(window.slotbydup = window.slotbydup || []).push({-->
+    <!--id: "u4135556",-->
+    <!--container: s-->
+    <!--});-->
+    <!--})();-->
+    <!--</script>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="widget"><h4 class="title">文章推荐</h4>-->
+    <!--<ul>-->
+    <!--<li>-->
+    <!--<i class="list_color">1</i>-->
+    <!--<a href="https://www.jianbaizhan.com/article/208">IE6、7中SELECT标签高度的兼容性修复</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<i class="list_color">2</i>-->
+    <!--<a href="https://www.jianbaizhan.com/article/583">jq列表筛选,根据品牌,风格来筛选效果</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<i class="list_color">3</i>-->
+    <!--<a href="https://www.jianbaizhan.com/article/274">jQuery分页效果的优势</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<i class="list_color">4</i>-->
+    <!--<a href="https://www.jianbaizhan.com/article/318">ie6,ie7下设置overflow:auto下滚动条不起作用</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<i class="list_color">5</i>-->
+    <!--<a href="https://www.jianbaizhan.com/article/562">jq弹窗垂直居中实现</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<i class="list_color">6</i>-->
+    <!--<a href="https://www.jianbaizhan.com/article/345">巧用margin/padding的百分比值实现高度自适应（多用于占位，避免闪烁）</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<i class="list_color">7</i>-->
+    <!--<a href="https://www.jianbaizhan.com/article/471">js简单的数组去掉重复数字，重新输出来</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<i class="list_color">8</i>-->
+    <!--<a href="https://www.jianbaizhan.com/article/118">php加密解密方法，php简单加密处理，php对称加密方式</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<i class="list_color">9</i>-->
+    <!--<a href="https://www.jianbaizhan.com/article/255">PHPExcel导出数据使用方法，excel导出表格</a>-->
+    <!--</li>-->
+    <!--<li>-->
+    <!--<i class="list_color">10</i>-->
+    <!--<a href="https://www.jianbaizhan.com/article/89">Mysql设置某字段唯一unique</a>-->
+    <!--</li>-->
+    <!--</ul>-->
+    <!--</div>                <div class="widget">-->
+    <!--<h4 class="title">慷慨捐赠-->
+    <!--<a href="javascript:;" class="a-link" id="donate-list">捐赠墙</a>-->
+    <!--</h4>-->
+    <!--<div class="content download">-->
+    <!--<img src="https://www.jianbaizhan.com/home/images/alipay_danote.png" alt="捐赠二维码" style="    width: 100%;">-->
+
+    <!--</div>-->
+    <!--</div>-->
+    <!--</aside>-->
+</div>
+<!-- 底部 -->
+<footer class="main-footer">
+    <!--<div class="container footer-nav">-->
+        <!--<div class="footer-left col-xs-12 col-sm-6 col-md-6 col-lg-6">-->
+            <!--<div class="column col-xs-6 col-sm-6 col-md-3 col-lg-3">-->
+                <!--<div class="list">-->
+                    <!--<div class="item">-->
+                        <!--建百站-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<a class="item" href="https://www.jianbaizhan.com/code">代码插件</a>-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<a class="item" href="https://www.jianbaizhan.com/article">技术文章</a>-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<a class="item" href="https://www.jianbaizhan.com/store">API大全</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="column col-xs-6 col-sm-6 col-md-3 col-lg-3">-->
+                <!--<div class="list">-->
+                    <!--<div class="item">-->
+                        <!--代码素材-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<a class="item" href="https://www.jianbaizhan.com/code/tag/33">图片展示</a>-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<a class="item" href="https://www.jianbaizhan.com/code/tag/32">幻灯片和轮播图</a>-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<a class="item" href="https://www.jianbaizhan.com/code/tag/44">动画效果</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="column col-xs-6 col-sm-6 col-md-3 col-lg-3">-->
+                <!--<div class="list">-->
+                    <!--<div class="item">-->
+                        <!--技术文章-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<a class="item" href="https://www.jianbaizhan.com/article/tag/52">DIV+CSS</a>-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<a class="item" href="https://www.jianbaizhan.com/article/tag/51">jQuery</a>-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<a class="item" href="https://www.jianbaizhan.com/article/tag/50">PHP</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="column col-xs-6 col-sm-6 col-md-3 col-lg-3">-->
+                <!--<div class="list">-->
+                    <!--<div class="item">-->
+                        <!--联系我们-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<a class="item" rel="nofollow" target="_blank" href="https://gitee.com/liaodeiy">Gitee</a>-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<a class="item" rel="nofollow" target="_blank" href="https://github.com/liaodeity">GitHub</a>-->
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                        <!--<a class="item" rel="nofollow"  href="mailto: liaodeity@gmail.com">liaodeity@gmail.com</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class=" footer-right col-xs-12 col-sm-6 col-md-6 col-lg-6">-->
+
+
+            <!--<div class="qrcode col-xs-6 col-sm-4 col-md-4">-->
+                <!--<img alt="建百站微信公众号二维码" src="https://www.jianbaizhan.com/home/images/qrcode_for_gh_805c1f263a99_430.jpg">-->
+                <!--<p class="qrcode-text">微信订阅号</p>-->
+            <!--</div>-->
+            <!--<div class="qrcode  col-xs-6 col-sm-4 col-md-4 ">-->
+                <!--<img alt="建百站淘宝网店" src="https://www.jianbaizhan.com/home/images/buy-taobao.png">-->
+                <!--<p class="qrcode-text">淘宝网店(欢迎下单)</p>-->
+            <!--</div>-->
+            <!--<div class="qrcode  col-xs-6 col-sm-4 col-md-4 ">-->
+                <!--<img alt="捐赠二维码" src="https://www.jianbaizhan.com/home/images/alipay_danote.png">-->
+                <!--<p class="qrcode-text">捐赠站长</p>-->
+            <!--</div>-->
+
+            <!--<p class=" col-xs-12">无法精准扫码，点击一下需要扫的二维码即可</p>-->
+
+        <!--</div>-->
+    <!--</div>-->
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12"><span>
+                    Copyright © 2014 - 2025 建百战素材 ALL Right Reserved
+                    <a target="_blank" href="http://beian.miit.gov.cn">粤ICP备14071981号</a>
+                </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--<script type="text/javascript" src="https://www.jianbaizhan.com/home/js/jquery.js"></script>-->
+<!--<script type="text/javascript" src="https://www.jianbaizhan.com/home/js/common.js?v=6dbf8b4a4a6b2a594a24aff375dee847"></script>-->
+<!--<script type="text/javascript" src="https://www.jianbaizhan.com/home/js/template.js"></script>-->
+<!--<script type="text/javascript" src="https://www.jianbaizhan.com/home/js/highlight.js"></script>-->
+<!--<script type="text/javascript" src="https://www.jianbaizhan.com/static/layer/3.1.0/layer.js"></script>-->
+<!--<script type="text/javascript" src="https://www.jianbaizhan.com/static/layui/layui.js"></script>-->
+<!--<script type="text/javascript" src="https://www.jianbaizhan.com/static/wangEditor/wangEditor.min.js"></script>-->
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/common.js?v=6dbf8b4a4a6b2a594a24aff375dee847"></script>
+<!--<script type="text/javascript" src="js/template.js"></script>-->
+<!--<script type="text/javascript" src="js/highlight.js"></script>-->
+<!--<script type="text/javascript" src="js/layer.js"></script>-->
+<!--<script type="text/javascript" src="js/layui.js"></script>-->
+<script type="text/javascript" src="js/wangEditor.min.js"></script>
+
+<!--<script type="text/javascript">-->
+    <!--$ (function () {-->
+        <!--$.ajaxSetup ({-->
+            <!--headers: {-->
+                <!--'X-CSRF-TOKEN': $ ('meta[name="csrf-token"]').attr ('content')-->
+            <!--}-->
+        <!--});-->
+    <!--});-->
+    <!--layui.use ('element', function () {-->
+        <!--var element = layui.element;-->
+    <!--})-->
+<!--</script>-->
+<!--<script type="text/javascript">-->
+    <!--$(document).ready(function () {-->
+        <!--function fixHeight() {-->
+            <!--$("#main_iframe").attr("height", $(window).height() - 53 + "px");-->
+        <!--}-->
+
+        <!--$(window).resize(function () {-->
+            <!--fixHeight();-->
+        <!--}).resize();-->
+    <!--})-->
+<!--</script>-->
+
+<!--<script>-->
+    <!--var _hmt = _hmt || [];-->
+    <!--(function () {-->
+        <!--var hm = document.createElement ("script");-->
+        <!--hm.src = "js/hm.js?6f7a6784d6ed727f70474bbe9415611c";-->
+        <!--var s = document.getElementsByTagName ("script")[ 0 ];-->
+        <!--s.parentNode.insertBefore (hm, s);-->
+    <!--}) ();-->
+<!--</script>-->
+<!-- 回到顶部 -->
+<script type="text/javascript">
+    // 222
+    $ (function () {
+        var b = $ (window);
+        var a = '<div id="topcontrol"><a href="javascript:void(0);" class="top_stick"><i class="fa fa-angle-double-up"></i></a></div>';
+        $ ("body").append (a);
+        $ ("#topcontrol").css ({display: "none", "margin-left": "auto", "margin-right": "auto", width: 1000});
+        $ ("#topcontrol").find (".top_stick").css ({position: "fixed", bottom: 68, right: 35, "z-index": 999999});
+        b.scroll (function () {
+            var c = b.scrollTop ();
+            if (c > 100) {
+                $ ("#topcontrol").fadeIn ()
+            } else {
+                $ ("#topcontrol").fadeOut ()
+            }
+        });
+        $ ("#topcontrol").click (function () {
+            $ ("body,html").animate ({scrollTop: 0}, 500)
+        })
+    });
+</script>
+
+
+<!--<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/cm.js" async="async" defer="defer"></script>-->
+<script type="text/javascript" src="js/cm.js" async="async" defer="defer"></script>
+<!-- 写文章 -->
+<script type="text/javascript">
+    $("#Popover14-toggle").click(function(){
+        // alert('Hello!');
+        $(location).attr("href","write");
+    });
+</script>
+<!-- /底部 -->
+
+</body>
+</html>

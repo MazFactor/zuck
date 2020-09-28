@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jinghuan.zuckonit.web.mapper.BL_ArticleMapper">
+    <resultMap id="Base_Result_Map" type="com.jinghuan.zuckonit.web.entity.BL_Article">
+        <id column="B1_ID" jdbcType="BIGINT" property="b1_id" />
+        <result column="B1_SUBJECT" jdbcType="VARCHAR" property="b1_subject" />
+        <result column="B1_CONTENT" jdbcType="VARCHAR" property="b1_content" />
+        <!--<result column="B2_ID" jdbcType="BIGINT" property="b2_id" />-->
+        <result column="create_time" jdbcType="VARCHAR" property="create_time" />
+        <result column="modify_time" jdbcType="INTEGER" property="modify_time" />
+        <result column="B1_EXPOSE" jdbcType="TIMESTAMP" property="b1_expose" />
+        <result column="B1_TAG_01" jdbcType="TIMESTAMP" property="b1_tag_01" />
+        <result column="B1_TAG_02" jdbcType="BIT" property="b1_tag_02" />
+        <result column="B1_TAG_03" jdbcType="BIT" property="b1_tag_03" />
+        <result column="B1_TAG_04" jdbcType="VARCHAR" property="b1_tag_04" />
+        <result column="B1_TAG_05" jdbcType="VARCHAR" property="b1_tag_05" />
+        <!--<result column="B3_ID" jdbcType="VARCHAR" property="b3_id" />-->
+        <result column="B1_ISMARKDOWN" jdbcType="VARCHAR" property="b1_isMarkDown" />
+    </resultMap>
+    <resultMap id="Base_Result_Map_Vo" type="com.jinghuan.zuckonit.web.vo.BL_ArticleIndexVO">
+        <id column="B1_ID" jdbcType="BIGINT" property="b1_id" />
+        <result column="B1_SUBJECT" jdbcType="VARCHAR" property="b1_subject" />
+        <result column="B1_CONTENT" jdbcType="VARCHAR" property="b1_content" />
+        <!--<result column="B2_ID" jdbcType="BIGINT" property="b2_id" />-->
+        <result column="create_time" jdbcType="VARCHAR" property="create_time" />
+        <result column="modify_time" jdbcType="INTEGER" property="modify_time" />
+        <result column="B1_EXPOSE" jdbcType="TIMESTAMP" property="b1_expose" />
+        <result column="B1_TAG_01" jdbcType="TIMESTAMP" property="b1_tag_01" />
+        <result column="B1_TAG_02" jdbcType="BIT" property="b1_tag_02" />
+        <result column="B1_TAG_03" jdbcType="BIT" property="b1_tag_03" />
+        <result column="B1_TAG_04" jdbcType="VARCHAR" property="b1_tag_04" />
+        <result column="B1_TAG_05" jdbcType="VARCHAR" property="b1_tag_05" />
+        <!--<result column="B3_ID" jdbcType="VARCHAR" property="b3_id" />-->
+        <result column="B1_ISMARKDOWN" jdbcType="VARCHAR" property="b1_isMarkdown" />
+    </resultMap>
+    <select id="searchBlArticleById" resultType="com.jinghuan.zuckonit.web.entity.BL_Article">
+        select
+        *
+        from bl_article
+        where B1_ID=#{b1_id}
+    </select>
+    <select id="queryList" parameterType="com.jinghuan.zuckonit.web.vo.BL_ArticleIndexVO" resultMap="Base_Result_Map_Vo">
+        select
+        B1_ID,
+        B1_SUBJECT,
+        B1_CONTENT,
+        create_time,
+        modify_time,
+        B1_EXPOSE,
+        B1_TAG_01,
+        B1_TAG_02,
+        B1_TAG_03,
+        B1_TAG_04,
+        B1_TAG_05
+        from bl_article
+        <where>
+            <if test="b1_id != null">
+                and B1_ID = #{b1_id}
+            </if>
+            <if test="b1_subject != null">
+                and B1_SUBJECT = #{b1_subject}
+            </if>
+            <if test="b1_content != null">
+                and B1_CONTENT = #{b1_content}
+            </if>
+            <if test="create_time != null">
+                and create_time = #{create_time}
+            </if>
+            <if test="modify_time != null">
+                and modify_time = #{modify_time}
+            </if>
+            <if test="b1_expose != null">
+                and B1_EXPOSE = #{b1_expose}
+            </if>
+            <if test="b1_tag_01 != null">
+                and B1_TAG_01 = #{b1_tag_01}
+            </if>
+            <if test="b1_tag_02 != null">
+                and B1_TAG_02 = #{b1_tag_02}
+            </if>
+            <if test="b1_tag_03 != null">
+                and B1_TAG_03 = #{b1_tag_03}
+            </if>
+            <if test="b1_tag_04 != null">
+                and B1_TAG_04 = #{b1_tag_04}
+            </if>
+            <if test="b1_tag_05 != null">
+                and B1_TAG_05 = #{b1_tag_05}
+            </if>
+        </where>
+        <if test="sortString != null and sortString != ''">
+            order by ${sortString}
+        </if>
+    </select>
+    <insert id="insertOneArticle" useGeneratedKeys="true" keyProperty="b1_id" parameterType="com.jinghuan.zuckonit.web.entity.BL_Article">
+        insert into
+        bl_article(B1_SUBJECT, B1_CONTENT)
+        values(#{b1_subject}, #{b1_content})
+    </insert>
+
+
+
+
+
+
+</mapper>
