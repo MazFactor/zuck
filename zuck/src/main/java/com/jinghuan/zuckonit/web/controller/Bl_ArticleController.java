@@ -105,6 +105,7 @@ public class Bl_ArticleController {
     @RequestMapping(value = "/write")
     public String go2write(Model model, HttpServletRequest request) {
         return "write_tinymce_markdownime";
+//        return "TestTiny";
 //        return "write_editormd";
     }
 

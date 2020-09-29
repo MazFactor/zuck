@@ -1,5 +1,6 @@
 package com.jinghuan.zuckonit.web.util;
 
+import com.hankcs.hanlp.HanLP;
 import com.jinghuan.zuckonit.web.base.Util.HtmlUtilsJ;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -153,25 +154,27 @@ public final class HtmlUtils {
      * @param text 源内容
      * @return 摘要结果
      */
-    public static String getExcerpt(String text) {
-        StringBuilder excerpt = new StringBuilder("");
-        int textLength = 0;
-
-        Document doc = Jsoup.parse(text);
-        //获取所有段落元素
-        Elements ps = doc.getElementsByTag("p");
-        for ( Element p: ps ) {
-            String html2Text = p.html();
-            if(html2Text != null){
-                textLength += Html2Text(html2Text).length();
-                if(textLength > 89) {
-                    String shortForText = Html2Text(html2Text).substring(0, Html2Text(html2Text).length() - (textLength - 89))  + "...";
-                    excerpt.append(shortForText);
-                    break;
-                }
-                excerpt.append(html2Text);
-            }
-        }
-        return excerpt.toString();
+    public static String getExcerpt(String text, int length) {
+        String excerpt;
+        excerpt = Html2Text(text);
+        List<String> excerpts = HanLP.extractSummary(excerpt, length);
+//        int textLength = 0;
+//
+//        Document doc = Jsoup.parse(text);
+//        //获取所有段落元素
+//        Elements ps = doc.getElementsByTag("p");
+//        for ( Element p: ps ) {
+//            String html2Text = p.html();
+//            if(html2Text != null){
+//                textLength += Html2Text(html2Text).length();
+//                if(textLength > length) {
+//                    String shortForText = Html2Text(html2Text).substring(0, Html2Text(html2Text).length() - (textLength - length))  + "...";
+//                    excerpt.append(shortForText);
+//                    break;
+//                }
+//                excerpt.append(html2Text);
+//            }
+//        }
+        return excerpts.get(0);
     }
 }
