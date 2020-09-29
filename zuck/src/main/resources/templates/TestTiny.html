@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="prism/prism.js" data-manual></script>-->
+    <script src="tinymce_4.9.11/js/tinymce/tinymce.min.js"></script>
+</head>
+<body>
+<div id="tinydemo"></div>
+<script>
+    tinymce.init({
+        selector: '#tinydemo',
+        plugins: "codesample image",
+        toolbar: "codesample image",
+        codesample_content_css: 'prism/prism.css',
+        codesample_languages: [
+            {text: 'HTML/XML', value: 'markup'},
+            {text: 'JavaScript', value: 'javascript'},
+            {text: 'CSS', value: 'css'},
+            {text: 'PHP', value: 'php'},
+            {text: 'Java', value: 'java'},
+        ],
+        content_css:'default',
+
+    });
+
+</script>
+</body>
+</html>
