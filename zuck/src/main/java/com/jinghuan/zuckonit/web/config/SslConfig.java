@@ -25,17 +25,17 @@ public class SslConfig {
                 context.addConstraint(securityConstraint);
             }
         };
-        factory.addAdditionalTomcatConnectors(redirectConnector());
+//        factory.addAdditionalTomcatConnectors(redirectConnector());
         return factory;
     }
 
-    private Connector redirectConnector() {
-        Connector connector = new Connector(Http11NioProtocol.class.getName());
-        connector.setScheme("http");
-        connector.setPort(80);
-        connector.setSecure(false);
-        connector.setRedirectPort(443);
-        return connector;
-    }
+//    private Connector redirectConnector() {
+//        Connector connector = new Connector(Http11NioProtocol.class.getName());
+//        connector.setScheme("http");
+//        connector.setPort(80);
+//        connector.setSecure(false);
+//        connector.setRedirectPort(443);
+//        return connector;
+//    }
 
 }

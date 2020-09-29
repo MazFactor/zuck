@@ -166,6 +166,12 @@
 			<artifactId>jsoup</artifactId>
 			<version>1.11.3</version>
 		</dependency>
+		<!-- HanLP -->
+		<dependency>
+			<groupId>com.hankcs</groupId>
+			<artifactId>hanlp</artifactId>
+			<version>portable-1.7.8</version>
+		</dependency>
 
 	</dependencies>
 
