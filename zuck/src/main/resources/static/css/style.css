@@ -523,7 +523,7 @@ article-content .detail p{margin: 1.4em 0}
 .left-sidebar{width: 7%}
 /*评论*/
 .main-content{padding-right: 0px; padding-left: 0px; margin-top: 10px; margin-right: 5px;}
-.main-content .comment {background-color: #ffffff;}
+/*.main-content .comment {background-color: #ffffff;}*/
 .main-content .comment .avatar{width: 30px;height: 30px; border-radius: 50%;}
 .main-content .comment .comment-header {
     padding-right: 15px;
