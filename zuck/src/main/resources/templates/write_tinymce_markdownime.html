@@ -7,15 +7,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css?v=17882425c3efa2f68788f35c66c012c8">
-    <link rel="stylesheet" type="text/css" href="prism/prism.css">
-    <script src="prism/prism.js"></script>
-    <pre class="language-markup"><code>...</code></pre>
-
-    <!--    <script type="text/javascript" src="MarkdownIME/dist/MarkdownIME.js"></script>-->
-    <script type="text/javascript" src="tinymce_5.2.1/tinymce.min.js"></script>
-    <script type="text/javascript" src="tinymce_5.2.1/plugins/placeholder/plugin.js"></script>
-
-
+    <!--<script type="text/javascript" src="MarkdownIME/dist/MarkdownIME.js"></script>-->
+    <!--<script src="prism/prism.js"></script>-->
+    <script type="text/javascript" src="tinymce_4.9.11/js/tinymce/tinymce.min.js"></script>
     <style type="text/css">
         body{
             margin: 0;
@@ -87,19 +81,12 @@
                 <script>
                     tinymce.init({
                         selector: '#content',
-                        auto_focus: true,
-                        // skin: 'oxide-dark',
-                        codesample_global_prismjs: true,
-                        codesample_content_css:"http://ourcodeworld.com/material/css/prism.css",
-                        language:'zh_CN',                       //注意大小写-->
-                        min_height: 650,                        // 最小高度
+                        language:'zh_CN',                       //注意大小写
                         menubar: false,                         //隐藏菜单
-                        resize: false,                          //编辑区域是否可以改变大小
                         statusbar: false,                       // 状态栏隐藏
-                        paste_data_images: true,                //允许粘贴图片
-                        timeoutSeconds: 7200,
-                        //toolbar_mode:wrap,                      //取值：floating / sliding / scrolling / wrap   --自5.2.0开始默认参数为：wrap
-                        toolbar_sticky: true,
+                        resize: false,                          //编辑区域是否可以改变大小
+                        max_height: 650,                        // 最小高度
+                        auto_focus: "content",                  // 自动获取焦点，值为被替换的textare或div的id
                         plugins: [                              //插件，可自行根据现实内容删除-->
                             "advlist autolink anchor link lists charmap print preview image hr pagebreak spellchecker",
                             "searchreplace wordcount visualblocks visualchars fullscreen insertdatetime nonbreaking",
@@ -121,36 +108,98 @@
                                 items: 'alignleft aligncenter alignright alignjustify'
                             }
                         },
-                        images_upload_handler: function (blobInfo, succFun, failFun) {
-                            var xhr, formData;
-                            var file = blobInfo.blob();//转化为易于理解的file对象
-                            xhr = new XMLHttpRequest();
-                            xhr.withCredentials = false;
-                            xhr.open('POST', '/uploadImage');
-                            xhr.onload = function() {
-                                var json;
-                                if (xhr.status !== 200) {
-                                    failFun('HTTP Error: ' + xhr.status);
-                                    return;
-                                }
-                                json = JSON.parse(xhr.responseText);
-                                if (!json || typeof json.url != 'string') {
-                                    failFun('Invalid JSON: ' + xhr.responseText);
-                                    return;
-                                }
-                                succFun(json.url);
-                            };
-                            formData = new FormData();
-                            formData.append('thumbnail', file, file.name);//此处与源文档不一样
-                            xhr.send(formData);
-                        },
-                        /** Init MarkdownIME when TinyMCE is ready: */
-                        // setup: function (ed) {
-                        //     ed.on('init', function (args) {
-                        //         MarkdownIME.Bookmarklet(window)
-                        //     });
-                        // }
+                        codesample_content_css: 'prism/prism.css',
+                        codesample_languages: [
+                            { text: 'HTML/XML', value: 'markup' },
+                            { text: 'JavaScript', value: 'javascript' },
+                            { text: 'CSS', value: 'css' },
+                            { text: 'PHP', value: 'php' },
+                            { text: 'Ruby', value: 'ruby' },
+                            { text: 'Python', value: 'python' },
+                            { text: 'Java', value: 'java' },
+                            { text: 'C', value: 'c' },
+                            { text: 'C#', value: 'csharp' },
+                            { text: 'C++', value: 'cpp' },
+                        ]
                     });
+                    // 以下是5.x版本配置：
+                    // tinymce.init({
+                    //     selector: '#content',
+                    //     // skin: 'oxide-dark',
+                    //     language:'zh_CN',                       //注意大小写-->
+                    //     min_height: 650,                        // 最小高度
+                    //     menubar: false,                         //隐藏菜单
+                    //     resize: false,                          //编辑区域是否可以改变大小
+                    //     statusbar: false,                       // 状态栏隐藏
+                    //     paste_data_images: true,                //允许粘贴图片
+                    //     timeoutSeconds: 7200,
+                    //     //toolbar_mode:wrap,                      //取值：floating / sliding / scrolling / wrap   --自5.2.0开始默认参数为：wrap
+                    //     toolbar_sticky: true,
+                    //     plugins: [                              //插件，可自行根据现实内容删除-->
+                    //         "advlist autolink anchor link lists charmap print preview image hr pagebreak spellchecker",
+                    //         "searchreplace wordcount visualblocks visualchars fullscreen insertdatetime nonbreaking",
+                    //         "save table contextmenu directionality emoticons paste textcolor emoticons",
+                    //         "code paste help media imagetools fullpage insertdatetime toc codesample autoresize"
+                    //     ],
+                    //     toolbar: [
+                    //         'formatselect bold italic underline strikethrough | bullist numlist charmap image | codesample fullscreen'
+                    //     ],
+                    //     codesample_global_prismjs: true,
+                    //     codesample_languages: [
+                    //         { text: 'HTML/XML', value: 'markup' },
+                    //         { text: 'JavaScript', value: 'javascript' },
+                    //         { text: 'CSS', value: 'css' },
+                    //         { text: 'PHP', value: 'php' },
+                    //         { text: 'Ruby', value: 'ruby' },
+                    //         { text: 'Python', value: 'python' },
+                    //         { text: 'Java', value: 'java' },
+                    //         { text: 'C', value: 'c' },
+                    //         { text: 'C#', value: 'csharp' },
+                    //         { text: 'C++', value: 'cpp' },
+                    //     ],
+                    //     codesample_content_css: 'prism/prism.css',
+                    //     toolbar_groups: {
+                    //         // formatting: {
+                    //         //     text: '文字格式',
+                    //         //     tooltip: 'Formatting',
+                    //         //     items: 'bold italic underline | superscript subscript'
+                    //         // },
+                    //         alignment: {
+                    //             icon: 'align-left',
+                    //             tooltip: 'alignment',
+                    //             items: 'alignleft aligncenter alignright alignjustify'
+                    //         }
+                    //     },
+                    //     images_upload_handler: function (blobInfo, succFun, failFun) {
+                    //         var xhr, formData;
+                    //         var file = blobInfo.blob();//转化为易于理解的file对象
+                    //         xhr = new XMLHttpRequest();
+                    //         xhr.withCredentials = false;
+                    //         xhr.open('POST', '/uploadImage');
+                    //         xhr.onload = function() {
+                    //             var json;
+                    //             if (xhr.status !== 200) {
+                    //                 failFun('HTTP Error: ' + xhr.status);
+                    //                 return;
+                    //             }
+                    //             json = JSON.parse(xhr.responseText);
+                    //             if (!json || typeof json.url != 'string') {
+                    //                 failFun('Invalid JSON: ' + xhr.responseText);
+                    //                 return;
+                    //             }
+                    //             succFun(json.url);
+                    //         };
+                    //         formData = new FormData();
+                    //         formData.append('thumbnail', file, file.name);//此处与源文档不一样
+                    //         xhr.send(formData);
+                    //     },
+                    //     /** Init MarkdownIME when TinyMCE is ready: */
+                    //     // setup: function (ed) {
+                    //     //     ed.on('init', function (args) {
+                    //     //         MarkdownIME.Bookmarklet(window)
+                    //     //     });
+                    //     // }
+                    // });
                 </script>
                 <textarea id="content" name="content" class="content" placeholder="本网页无缓存功能，请不要在编辑刷新，以免内容丢失。"></textarea>
             </form>
