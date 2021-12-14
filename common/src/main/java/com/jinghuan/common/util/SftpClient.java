@@ -235,7 +235,7 @@ public class SftpClient {
     public static void main(String[] args) throws SftpException, IOException {
         SftpClient sftp = new SftpClient("ftpuser", "ftpuser", "10.20.125.128", 22);
         sftp.login();
-        File file = new File("C:\\Users\\GW00165883\\Pictures\\409167387-167a422670ccd6e9.jpg");
+        File file = new File("C:\\Users\\Pictures\\409167387-167a422670ccd6e9.jpg");
         InputStream is = new FileInputStream(file);
 
         sftp.uploadToFtp("/home/ftpuser/images", "2.png", is);
